@@ -9,11 +9,14 @@ Para executar o projeto você precisa ter o ambiente de desenvolvimento configur
 
 Após isso, instale o Angular CLI(Command Line Interface) para que seja possível executar o projeto a partir de sua própria máquina(servidor).
 
-- npm install -g @angular/cli 
+- npm install -g @angular/cli
 
 # Initialization:
 1 - Crie um projeto Angular com o seguinte comando:
   - ng new "nome-do-projeto"
+
+2 - Dentro da pasta do projeto, execute:
+  - npm install 
 
 2 - Substitua a pasta "src" do projeto criado, pela pasta "src" baixada do github.(Substituindo os arquivos já existentes)
 
@@ -21,7 +24,7 @@ Após isso, instale o Angular CLI(Command Line Interface) para que seja possíve
 
   - npm install @agm/core --save
 
-4 - Dentro da pasta "src", execute o seguinte comando:
+4 - Dentro da pasta do projeto, execute o seguinte comando:
 
   - ng serve --open
   
