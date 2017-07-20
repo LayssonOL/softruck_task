@@ -14,7 +14,7 @@ Após isso, instale o Angular CLI(Command Line Interface) para que seja possíve
 # Initialization:
 1 - Após baixar o projeto, abra um terminal e acesse o interior da pasta do projeto.
 
-2 - Dentro da pasta do projeto basta executar o seguinte comando:
+2 - Dentro da pasta "src" do projeto execute o seguinte comando:
 
   - ng serve --open
   
