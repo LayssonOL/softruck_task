@@ -12,13 +12,20 @@ Após isso, instale o Angular CLI(Command Line Interface) para que seja possíve
 - npm install -g @angular/cli 
 
 # Initialization:
-1 - Após baixar o projeto, abra um terminal e acesse o interior da pasta do projeto.
+1 - Crie um projeto Angular com o seguinte comando:
+  - ng new "nome-do-projeto"
 
-2 - Dentro da pasta "src" do projeto execute o seguinte comando:
+2 - Substitua a pasta "src" do projeto criado, pela pasta "src" baixada do github.(Substituindo os arquivos já existentes)
+
+3 - Dentro da pasta do projeto instale o Angular Google Maps:
+
+  - npm install @agm/core --save
+
+4 - Dentro da pasta "src", execute o seguinte comando:
 
   - ng serve --open
   
-3 - O comando anterior deve abrir o browser automaticamente. Caso isso não aconteça, para visualizar o app, abra um browser e acesse: 
+5 - O comando anterior deve abrir o browser automaticamente. Caso isso não aconteça, para visualizar o app, abra um browser e acesse: 
 
 http://localhost:4200
 
